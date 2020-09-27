@@ -7,7 +7,7 @@ import cgitb
 cgitb.enable()
 
 from sortedcontainers import SortedDict
-filePath="/home/skon/PythonNameLookup/namedata/"
+filePath="/home/students/lu1/PythonNameLookup/namedata/"
 
 class nameEntry:
   """
