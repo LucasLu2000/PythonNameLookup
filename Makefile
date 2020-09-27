@@ -12,9 +12,9 @@ PutCGI:
 	ls -l /usr/lib/cgi-bin/
 
 PutHTML:
-	cp namelookup.html /var/www/html/softdev/lu1/pNames/
-	cp namelookup.css /var/www/html/softdev/lu1/pNames/
-	cp namelookup.js /var/www/html/softdev/lu1/pNames/
+	cp namelookup.html /var/www/html/softdev/pNames/
+	cp namelookup.css /var/www/html/softdev/pNames/
+	cp namelookup.js /var/www/html/softdev/pNames/
 
 	echo "Current contents of your HTML directory: "
-	ls -l /var/www/html/softdev/lu1/pNames/
+	ls -l /var/www/html/softdev/pNames/
