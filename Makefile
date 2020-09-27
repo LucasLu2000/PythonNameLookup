@@ -9,7 +9,7 @@ PutCGI:
 	cp namelookup.py /usr/lib/cgi-bin/namelookup.py
 
 	echo "Current contents of your cgi-bin directory: "
-	ls -l /usr/lib/cgi-bin/lu1
+	ls -l /usr/lib/cgi-bin
 
 PutHTML:
 	cp namelookup.html /var/www/html/softdev/pNames/
