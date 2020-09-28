@@ -6,7 +6,7 @@ all: PutCGI PutHTML
 
 PutCGI:
 	chmod 757 namelookup.py
-	cp namelookup.py /usr/lib/cgi-bin/namelookup.py
+	cp namelookup.py /usr/lib/cgi-bin/lu1_namelookup.py
 
 	echo "Current contents of your cgi-bin directory: "
 	ls -l /usr/lib/cgi-bin
